@@ -1,0 +1,8 @@
+Info in <TUnixSystem::ACLiC>: creating shared library /mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/./EIC_mesonMC_n_cpp.so
+/home/davidzarta/Applications/root_v6.24/bin/rootcling: error while loading shared libraries: libCling.so: failed to map segment from shared object
+Error in <ACLiC>: Executing '/home/davidzarta/Applications/root_v6.24/bin/rootcling -v0 "--lib-list-prefix=/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC_n_cpp_ACLiC_map" -f "/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC_n_cpp_ACLiC_dict.cxx" -I$ROOTSYS/include -I"/home/davidzarta/Applications/root_v6.24/etc/" -I"/home/davidzarta/Applications/root_v6.24/etc//cling" -I"/home/davidzarta/Applications/root_v6.24/include/" -I"/home/davidzarta/Applications/root_v6.24/include" -D__ACLIC__  "/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/./EIC_mesonMC_n.cpp" "/mnt/c/Users/zarta/Documents/internship/EIC1/EIC_mesonMC/mesonMC/src/EIC_mesonMC_n_cpp_ACLiC_linkdef.h"' failed!
+input_line_9:2:3: error: use of undeclared identifier 'mainx'
+ (mainx(1.0E-4, 1., 1., 200., 20210520, 8000000, 820., 27.5, true))
+  ^
+Error in <HandleInterpreterException>: Error evaluating expression (mainx(1.0E-4, 1., 1., 200., 20210520, 8000000, 820., 27.5, true)).
+Execution of your code was aborted.
